@@ -24,6 +24,11 @@ This works as follows:
 11. Increase the SizeOfRawData and VirtualSize fields of the last section to ensure the new IAT table is loaded into memory correctly. The section data on disk must be aligned to the value of pImageNtHeader->OptionalHeader.FileAlignment, so extra padding may be necessary here.
 12. Check if any remaining data exists in the original EXE after the last header. Debug symbols and embedded files are often appended to the end of EXE files - these are not part of the EXE format, so they are not loaded into memory by default. The pImageNtHeader->FileHeader.PointerToSymbolTable value will be updated to point to the correct location if necessary, although these are unlikely to exist in production software.
 
+![alt text](https://cdn.discordapp.com/attachments/951192813477965856/999031871595872287/Shot_0022.png)
+
+#DEMO
+
+
 Enjoy!!
 @AuxGrep
 
