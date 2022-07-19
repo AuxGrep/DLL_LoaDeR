@@ -26,7 +26,8 @@ This works as follows:
 
 ![alt text](https://cdn.discordapp.com/attachments/951192813477965856/999031871595872287/Shot_0022.png)
 
-#DEMO
+# HOW TO BUILD
+![alt text](https://cdn.discordapp.com/attachments/951192813477965856/999047022688608266/Shot_0024.png)
 
 
 Enjoy!!
